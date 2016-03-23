@@ -4,7 +4,7 @@ find_package (cppcheck)
 if (CPPCHECK_FOUND)
   set (_cppcheck_args "${CPPCHECK_ARGS}")
   set (_cppcheck_dirs
-   !!FILL IN DIRECTORIES THAT REQUIRE CHECKING!!
+    singers/datamodel
   )
   set (_cppcheck_source_dirs)
   foreach (_dir ${_cppcheck_dirs} )

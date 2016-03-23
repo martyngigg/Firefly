@@ -58,13 +58,14 @@ endif ()
 # ------------------------------------------------------------------------------
 # Build shared libraries by default
 set (BUILD_SHARED_LIBS ON)
+include (SingersModuleMacros)
 
-# ...add_subdirectory() commands etc
+add_subdirectory (singers/datamodel)
 
 # ------------------------------------------------------------------------------
 # Static checks
 # ------------------------------------------------------------------------------
-add_subdirectory (devtools/static-analysis-cppcheck)
+add_subdirectory (devtools/static-analysis/cppcheck)
 
 # ------------------------------------------------------------------------------
 # Documentation
