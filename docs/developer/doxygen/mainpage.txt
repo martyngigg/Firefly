@@ -1,4 +1,6 @@
 /*!
 \mainpage
-Description of project for front page of generated pages
+A framework for managing basic contact information and creating register lists.
+
+It is heavily over engineered for something so simple...
 */

@@ -1,11 +1,4 @@
-CMake C++ Template
-------------------
+Singers
+-------
 
-A basic setup for a CMake-based project that uses:
-
-- CxxTest for unit testing
-- Doxygen for generating API docs
-- Cppcheck for static analysis
-- Clang-format for code formatting (following LLVM style)
-
-Ack for `project_name` & `PROJECT_NAME` variables and change them accordingly.
+Prototype for playing around with sip/PyQt/boost interaction
