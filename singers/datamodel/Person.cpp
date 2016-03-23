@@ -6,8 +6,7 @@ namespace datamodel {
   /**
    * Constructor
    */
-  Person::Person() {
-  }
+  Person::Person() = default;
 
 }
 }
