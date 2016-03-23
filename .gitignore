@@ -27,3 +27,6 @@
 *.exe
 *.out
 *.app
+
+# Qt CMake stuff
+CMakeLists.txt.user
