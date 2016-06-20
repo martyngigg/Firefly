@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 2.8.12 FATAL_ERROR)
+cmake_minimum_required (VERSION 3.0.0 FATAL_ERROR)
 
 foreach(p
     CMP0020 # CMake 2.8.11
@@ -60,7 +60,15 @@ endif ()
 set (BUILD_SHARED_LIBS ON)
 include (SingersModuleMacros)
 
+# ------------------------------------------------------------------------------
+# Framework
+# ------------------------------------------------------------------------------
 add_subdirectory (singers/datamodel)
+
+# ------------------------------------------------------------------------------
+# Qt
+# ------------------------------------------------------------------------------
+add_subdirectory (qt)
 
 # ------------------------------------------------------------------------------
 # Static checks
